@@ -1,9 +1,5 @@
 -- lua/core/keymaps.lua
 
--- Leader key
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
-
 -- local opts = { noremap = true, silent = true }
 
 vim.keymap.set("n", "<C-z>", "<cmd>qa!<CR>", { desc = "Quit Neovim" })
@@ -39,9 +35,9 @@ vim.keymap.set("t", "<C-k>", [[<C-\><C-n><C-w>k]], { desc = "Terminal: up" })
 vim.keymap.set("n", "<leader>x", "<cmd>bd<CR>", { desc = "Close current buffer" })
 
 -- Resize splits using Ctrl + arrow keys
-vim.keymap.set("n", "<C-Up>",    "<cmd>resize +2<CR>", { desc = "Increase window height" })
-vim.keymap.set("n", "<C-Down>",  "<cmd>resize -2<CR>", { desc = "Decrease window height" })
-vim.keymap.set("n", "<C-Left>",  "<cmd>vertical resize -2<CR>", { desc = "Decrease window width" })
+vim.keymap.set("n", "<C-Up>", "<cmd>resize +2<CR>", { desc = "Increase window height" })
+vim.keymap.set("n", "<C-Down>", "<cmd>resize -2<CR>", { desc = "Decrease window height" })
+vim.keymap.set("n", "<C-Left>", "<cmd>vertical resize -2<CR>", { desc = "Decrease window width" })
 vim.keymap.set("n", "<C-Right>", "<cmd>vertical resize +2<CR>", { desc = "Increase window width" })
 
 -- Window Management
