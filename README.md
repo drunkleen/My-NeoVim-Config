@@ -123,7 +123,7 @@ nvim
 
 ## 🖼️ Screenshots
 
-<img src="https://raw.githubusercontent.com/drunkleen/neovim-config/main/.github/ss1.png" width="49%"><img src="https://raw.githubusercontent.com/drunkleen/neovim-config/main/.github/ss2.png" width="49%">
+<img src="https://github.com/drunkleen/neovim-config/blob/master/ss1.png" width="49%"><img src="https://github.com/drunkleen/neovim-config/blob/master/ss2.png" width="49%">
 
 ---
 
