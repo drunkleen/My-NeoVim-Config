@@ -3,6 +3,8 @@
 -- Leader key
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+vim.o.timeout = true
+vim.o.timeoutlen = 500
 
 require("core.keymaps")
 require("core.options")
@@ -28,7 +30,6 @@ local plugins = {
 	require("plugins.alpha"),
 	require("plugins.comment"),
 	require("plugins.bufferline"),
-	require("plugins.lazygit"),
 	require("plugins.lsp"),
 	require("plugins.lualine"),
 	require("plugins.autocompletion"),
@@ -37,9 +38,9 @@ local plugins = {
 	require("plugins.signature"),
 	require("plugins.telescope"),
 	require("plugins.toggleterm"),
+	require("plugins.lazygit"),
 	require("plugins.treesitter"),
 	require("plugins.wakatime"),
-	require("plugins.whichkey"),
 	-- add more here
 }
 
