@@ -3,6 +3,7 @@ return {
 	"catppuccin/nvim",
 	name = "catppuccin",
 	"dracula/vim", -- Vimscript-based
+	name = "dracula",
 	"sainnhe/everforest",
 	"projekt0n/github-nvim-theme",
 	"morhetz/gruvbox", -- Vimscript-based
